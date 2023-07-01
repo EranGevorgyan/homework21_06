@@ -1,0 +1,8 @@
+def print_pattern(integer):
+    for i in range(1, integer+1):
+        for j in range(1, i+1):
+            print(j, end=' ')
+        print()
+
+integer = int(input('Enter an integer: '))
+print_pattern(integer)
