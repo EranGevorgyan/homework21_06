@@ -1,0 +1,21 @@
+while True:
+    Number1 = int(input('Enter a number1: '))
+    Number2 = int(input('Enter a number2: '))
+    operator = input("Operator:\n"
+                     "*. multiplication\n"
+                     "/. separation\n"
+                     "+. addition\n"
+                     "-. subtraction\n"
+                     "exit. Exit the program\n"
+                     "Enter your choice: ")
+    if operator == "*":
+        print(Number1 * Number2)
+    elif operator == "/":
+        print(Number1 / Number2)
+    elif operator == "+":
+        print(Number1 + Number2)
+    elif operator == "-":
+        print(Number1 - Number2)
+    elif operator.lower() == "exit":
+        print("Program finished")
+        break
