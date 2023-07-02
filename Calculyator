@@ -11,7 +11,10 @@ while True:
     if operator == "*":
         print(Number1 * Number2)
     elif operator == "/":
-        print(Number1 / Number2)
+        if Number2 == 0:
+            print("A number is not divisible by 0")
+        else:
+            print(Number1 / Number2)
     elif operator == "+":
         print(Number1 + Number2)
     elif operator == "-":
